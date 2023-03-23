@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - prints the numbers from 0 to 9 and avoid 2 and 4
  * Return: the numbers
- * */
+ */
 
 void print_most_numbers(void)
 {
@@ -15,7 +15,10 @@ void print_most_numbers(void)
 	{
 	continue;
 	}
+	else
+	{
 	_putchar(c + '0');
+	}
 	}
 	_putchar('\n');
 }
