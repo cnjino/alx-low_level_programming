@@ -16,5 +16,4 @@ void rev_string(char *s)
 		_putchar(s[a]);
 		a--;
 	}
-	return (0);
 }
