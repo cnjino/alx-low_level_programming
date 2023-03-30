@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_number - printer interger
- * @n: interger parameter
+ * print_number - print numbers chars
+ * @n: interger parameters
  * Return: Always 0.
  */
 
@@ -22,5 +22,5 @@ void print_number(int n)
 	{
 		print_number(x / 10);
 	}
-	_putchar((x % 10) + '0')
+	_putchar((x % 10) + '0');
 }
