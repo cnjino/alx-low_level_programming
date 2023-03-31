@@ -1,9 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_number - print numbers chars
- * @n: interger parameters
+ * print_number - prints an interger
+ * @n: interger parameter
  * Return: Always 0.
  */
 
@@ -18,6 +17,7 @@ void print_number(int n)
 		_putchar('-');
 		n1 = -n;
 	}
+
 	if (n1 / 10 != 0)
 	{
 		print_number(n1 / 10);
