@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - prints an interger
+ * print_number - print intergers
  * @n: interger parameter
  * Return: Always 0.
  */
