@@ -3,7 +3,7 @@
 
 /**
  * _strchr - locates a character in a string
- * @s: input 
+ * @s: input
  * @c: input
  * Return: Always 0.
  */
