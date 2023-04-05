@@ -36,7 +36,7 @@ int _strlen_recursion(char *s)
 	}
 	else
 	{
-		return (1 + _strlen_recursions(s + 1));
+		return (1 + _strlen_recursion(s + 1));
 	}
 }
 
@@ -60,6 +60,6 @@ int check_pal(char *s, int i, int len)
 	}
 	else
 	{
-		return (check_pals(s, i + 1, len - 1));
+		return (check_pal(s, i + 1, len - 1));
 	}
 }
