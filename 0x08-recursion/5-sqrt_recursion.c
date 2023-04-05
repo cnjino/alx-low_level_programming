@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (actual_sqrt_recursion(n,0));
+		return (actual_sqrt_recursion(n, 0));
 	}
 }
 /**
@@ -42,4 +42,3 @@ int actual_sqrt_recursion(int n, int i)
 		return (actual_sqrt_recursion(n, i + 1));
 	}
 }
-	
