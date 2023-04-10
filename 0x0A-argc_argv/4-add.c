@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-		count++
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);
