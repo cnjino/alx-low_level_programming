@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints its own opcodes
@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 	}
 
 	bytes = atoi(argv[1]);
+
 	if (bytes < 0)
 	{
 		printf("Error\n");
@@ -27,6 +28,7 @@ int main(int argc, char *argv[])
 	}
 
 	arr = (char *)main;
+
 	for (i = 0; i < bytes; i++)
 	{
 		if (i == bytes - 1)
