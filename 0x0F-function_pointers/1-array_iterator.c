@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * array_iterator -  executes a function given as a parameter on each element of an array
+ * array_iterator -  executes a function given as a parameter
+ * on each element of an array
  * @array: array input
  * @size: number of elements to print
  * @action: pointer to print
