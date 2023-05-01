@@ -4,13 +4,13 @@
 
 /**
  * free_listint - frees a listint_t list
- * @head: listint_t list to be freed 
+ * @head: listint_t list to be freed
  * Return: Always 0.
  */
 
 void free_listint(listint_t *head)
 {
-	list_t *temp;
+	listint_t *temp;
 
 	while (head)
 	{
